@@ -49,7 +49,7 @@ model=LinearRegression()
 model.fit(x_train,y_train)
 
 #4.Evaluate with cross-validation (simple version)
-print('Name: Hari Prasath M')
+print('Name: HARI PRASATH M')
 print('Reg. No: 212225100015')
 print("\n=== Cross-Validation ===")
 cv_scores=cross_val_score(model,x,y,cv=5)
